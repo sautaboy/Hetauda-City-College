@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body
+{
+    background: #000;
+}
+
+
+
+.container section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+
+    /* css for background image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+
+section h1 {
+    color: yellow;
+    width: fit-content;
+    padding: .5rem .5rem .5rem .5rem;
+    position: sticky;
+    top: 25vh;
+    z-index: 1;
+}
+
+section span {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0;
+    background-color: wheat;
+    color: black;
+    align-items: center;
+    text-align: center;
+    align-self: auto;
+    z-index: 999;
+    width: 100%;
+    padding: 1rem;
+}
+
+
+.sectionOne {
+    /* attaching background image to it */
+    background-image: url("https://scontent.fktm16-1.fna.fbcdn.net/v/t1.6435-9/118773951_1877970829010194_8782221747813264061_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=rpNQ1fnYBgcAX-4GV44&_nc_ht=scontent.fktm16-1.fna&oh=00_AfDHjnpXwgKZdUHRhXCq5uJnLyeO-Ka70-PVsIGv5PS2mA&oe=649B7616");
+}
+
+.sectionTwo {
+    background-image: url("https://www.itcollegenepal.com/wp-content/uploads/2017/07/Hetauda-City-College.jpg.webp");
+}
+
+.sectionThree {
+    background-image: url("https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/347275689_202934029277899_8936873358252935115_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=r9Sgbvt95yMAX9q3rF8&_nc_ht=scontent.fktm16-1.fna&oh=00_AfCR29wGae8xDCqyksNVZrM9-yEKKxwMo_ICYWb0a9gD0g&oe=64787733");
+}
+
+.sectionFour {
+    background-image: url("https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/299512117_2503083956498875_5665298614335504211_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=5Or6KF3CVUIAX_wDwjY&_nc_ht=scontent.fktm16-1.fna&oh=00_AfBf68IUZlFogTChR29zEbX_Z8FGRHS8q8-8YB7DehoQ2Q&oe=64780CD9");
+}
